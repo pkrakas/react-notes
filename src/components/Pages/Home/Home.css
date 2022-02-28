@@ -1,0 +1,54 @@
+
+.home h3 {
+    color: #707070;
+    margin: 0;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.home textarea {
+    width: 100%;
+    min-height: 150px;
+    font-size: 16pt;
+    font-family: 'Helvetica';
+    padding: 10px;
+    border-color: #E1E1E1;
+    border-radius: 5px;
+    color: #707070;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.home textarea:active, textarea:focus {
+    border-color: #E1E1E1;
+    outline: none;
+}
+
+.home .button-container {
+    width: 100%;
+    text-align: center;
+}
+
+.home .button-container button {
+    padding: 8px 20px;
+    margin-top: 15px;
+    font-size: 14pt;
+    background-color: #fff;
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    color: #707070;
+    cursor: pointer;
+}
+
+.home .button-container :hover {
+    background-color: #E1E1E1;
+}
+
+.home .latest-notes {
+    color: #707070;
+}
+
+.latest-notes h1 {
+    text-align: center;    
+}

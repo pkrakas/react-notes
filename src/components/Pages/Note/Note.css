@@ -1,0 +1,37 @@
+.note .buttons-container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.note .buttons-container button {
+    height: 40px;
+}
+
+.note .buttons-container .go-back-button {
+    margin-left: 25px;
+    padding: 0px 15px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.note .buttons-container .go-back-button:hover {
+    cursor: pointer;
+    background-color:#fff;
+}
+
+.note .buttons-container .delete-button {
+    margin-right: 25px;
+}
+
+
+.note .markdown {
+    padding: 10px 25px;
+    background-color: #EAEAEA;
+    color: #707070;
+}
+
+.note .markdown .date {
+    text-align: end;
+}
